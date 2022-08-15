@@ -24,7 +24,7 @@ public class ApplicationSecutiryConfiguration extends WebSecurityConfigurerAdapt
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		http.authorizeRequests().anyRequest().authenticated().and().formLogin().loginPage("/showCustomLoginPage")
-				.loginProcessingUrl("/authenticateTheUser").permitAll();
+				.loginProcessingUrl("/authenticateTheUser").permitAll().and().logout().permitAll();
 
 //		http.authorizeRequests().antMatchers("/css/**").permitAll().anyRequest().authenticated().and().formLogin()
 //				.loginPage("/showCustomLoginPage").loginProcessingUrl("/authenticateTheUser").permitAll();
