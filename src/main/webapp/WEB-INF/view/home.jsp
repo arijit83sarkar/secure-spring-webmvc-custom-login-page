@@ -35,8 +35,10 @@ body {
 	</div>
 
 	<div class="content">
-		<h1>Content</h1>
-		<p>Some content bla bla bla, some content bla bla bla.</p>
+		<h1>Home</h1>
+		<p>In this tutorial, we'll learn how to show our custom login form
+			in-place of Spring Security provided login form and also implement
+			logout facility.</p>
 		<p>
 			<form:form action="${pageContext.request.contextPath}/logout"
 				method="POST">
