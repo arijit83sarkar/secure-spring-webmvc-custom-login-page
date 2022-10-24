@@ -7,7 +7,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Home - Spring Security Implementation</title>
+<title>Home - Spring Security</title>
 <style>
 body {
 	font-family: Arial, Helvetica, sans-serif;
@@ -30,8 +30,7 @@ body {
 <body>
 	<div class="header">
 		<h1>Spring Security</h1>
-		<p>Welcome to Spring Security implementation with custom Login
-			page!</p>
+		<p>Welcome to Spring Security with custom Login	page!</p>
 	</div>
 
 	<div class="content">
